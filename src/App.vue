@@ -6,6 +6,8 @@
   <v-main >
     <router-view></router-view>
   </v-main>
+
+  <AuthenticationGuard />
 </v-app>
 </template>
 
@@ -59,8 +61,5 @@ export default {
     to {
       transform: rotate(360deg);
     }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
   }
 </style>
