@@ -1,6 +1,6 @@
 # VueMeetups
 
-To register and create meetups
+To register and create meetups by different users
 
 ## Project setup
 
